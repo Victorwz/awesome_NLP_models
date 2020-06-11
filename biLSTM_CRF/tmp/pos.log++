@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Num train seqs: 38
+	Avg length: 25
+	Max length: 50
+	Min length: 5
+	Std length: 12.9328
+Num val seqs: 38
+Num test seqs: 38
+
+Num word types: 429 (including PAD/UNK)
+Num label types: 13 (including PAD/UNK)
+	<pad> <unk> ADP DET NOUN NUM . PRT VERB CONJ ADV PRON ADJ
+Num char types: 68 (including PAD/UNK)
+	<pad> <unk> I n a O c t . 1 9 r e v i w o f ` T h M s p ' C g G d m ( R l z k S W y , L u & A ) b K H E - x U 2 0 4 B F N D q 5 8 7 % { } j / $
+Namespace(batch_size=16, cdim=25, check_interval=500, clip=1, cuda=False, data='data/ptb-wsj-snippet', dropout=0, epochs=10, hdim=100, init=0.01, layers=1, loss='greedy', lr=0.002, max_bad_epochs=7, model='./tmp/pos', nochar=True, nruns=1, seed=42, train=True, wdim=100)
+Epoch   1 | loss    2.418 |  val perf   31.256	*Updating best model*
+Epoch   2 | loss    1.975 |  val perf   37.591	*Updating best model*
+Epoch   3 | loss    1.498 |  val perf   53.790	*Updating best model*
+Epoch   4 | loss    1.086 |  val perf   55.348	*Updating best model*
+Epoch   5 | loss    0.867 |  val perf   74.766	*Updating best model*
+Epoch   6 | loss    0.640 |  val perf   87.435	*Updating best model*
+Epoch   7 | loss    0.418 |  val perf   91.070	*Updating best model*
+Epoch   8 | loss    0.265 |  val perf   96.054	*Updating best model*
+Epoch   9 | loss    0.164 |  val perf   97.196	*Updating best model*
+Epoch  10 | loss    0.103 |  val perf   98.027	*Updating best model*
+------New best validation performance: 98.027
+Saving model to ./tmp/pos
+1 perfs: [98.0269989615784]
+best perf: 98.027
+best args: Namespace(batch_size=16, cdim=25, check_interval=500, clip=1, cuda=False, data='data/ptb-wsj-snippet', dropout=0, epochs=10, hdim=100, init=0.01, layers=1, loss='greedy', lr=0.002, max_bad_epochs=7, model='./tmp/pos', nochar=True, nruns=1, seed=42, train=True, wdim=100)
+
+perf max: 98.027
+perf min: 98.027
+perf avg: 98.027
+perf std: 0
+(excluded 0 out of 1 runs that produced -inf)
+Validation
+acc                 :   98.027
+
+Test
+acc                 :   98.027
