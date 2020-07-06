@@ -16,7 +16,7 @@ Rutgers CS533 course instructor, Professor Karl adapted some of the codes from C
 
 - Hidden markov model: sample code for bigram case
 
-- attention: LSTM with attention mechanism, also the implementation for computing BLEU score
+- Seq2Seq with attention: Sequence-to-Sequence model with attention mechanism, also the implementation for computing BLEU score
 
-- BiLSTM with CRF inference layer: a tagger based on BiLSTM with CRF inference layer, also the implementation for Viterbi algorithm
+- BiLSTM with CRF inference layer: a tagger based on BiLSTM with CRF inference layer
 
